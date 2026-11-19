@@ -16,6 +16,7 @@ namespace ArrayEsercizio
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             string [] nome = new string [0];

@@ -38,6 +38,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -164,10 +165,21 @@
             "5: -13",
             "",
             "6: 3452"});
-            this.listBox3.Location = new System.Drawing.Point(513, 88);
+            this.listBox3.Location = new System.Drawing.Point(499, 88);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(141, 173);
             this.listBox3.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Maroon;
+            this.label2.Location = new System.Drawing.Point(318, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(202, 17);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "AIUTARSI CON LE LISTE";
             // 
             // Form1
             // 
@@ -175,6 +187,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(718, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
@@ -205,6 +218,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Label label2;
     }
 }
 
