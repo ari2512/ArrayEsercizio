@@ -16,5 +16,19 @@ namespace ArrayEsercizio
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string [] nome = new string [0];
+            string[] cognome = new string[0];
+            int[] nConto = new int[0];
+            int[] saldo=new int[0];
+            for (int i = 0; i < nome.Length; i++)
+            {
+
+            }
+        }
     }
 }
+       
+    
+
