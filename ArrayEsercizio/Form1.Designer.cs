@@ -45,7 +45,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(12, 72);
+            this.label1.Location = new System.Drawing.Point(7, 71);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 88);
+            this.textBox1.Location = new System.Drawing.Point(10, 88);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(177, 20);
             this.textBox1.TabIndex = 1;
@@ -96,31 +96,16 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button1.ForeColor = System.Drawing.Color.Maroon;
-            this.button1.Location = new System.Drawing.Point(10, 216);
+            this.button1.Location = new System.Drawing.Point(10, 233);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 51);
             this.button1.TabIndex = 8;
             this.button1.Text = "GESTISCI";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "0: Rossi Mario",
-            "",
-            "1: Bianchi Luigi",
-            "",
-            "2: Belli Giulia",
-            "",
-            "3: Dotti Fabio",
-            "",
-            "4: Merli Gianna",
-            "",
-            "5: Zeri Giulio",
-            "",
-            "6: Botti Maria"});
             this.listBox1.Location = new System.Drawing.Point(232, 88);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(147, 173);
@@ -129,20 +114,6 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Items.AddRange(new object[] {
-            "0: 11264",
-            "",
-            "1: 99780",
-            "",
-            "2: 00342",
-            "",
-            "3: 03419",
-            "",
-            "4: 34562",
-            "",
-            "5: 09887",
-            "",
-            "6: 02341"});
             this.listBox2.Location = new System.Drawing.Point(385, 88);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(108, 173);
@@ -151,20 +122,6 @@
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
-            this.listBox3.Items.AddRange(new object[] {
-            "0: 11534",
-            "",
-            "1: -2345",
-            "",
-            "2: 3451",
-            "",
-            "3: 127",
-            "",
-            "4: 45673",
-            "",
-            "5: -13",
-            "",
-            "6: 3452"});
             this.listBox3.Location = new System.Drawing.Point(499, 88);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(141, 173);

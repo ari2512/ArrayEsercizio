@@ -15,6 +15,10 @@ namespace ArrayEsercizio
         public Form1()
         {
             InitializeComponent();
+            string[] nome = new string[0];
+            string[] cognome = new string[0];
+            int[] nConto = new int[0];
+            int[] saldo = new int[0];
         }
 
         private void button1_Click(object sender, EventArgs e)
