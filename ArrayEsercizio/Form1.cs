@@ -18,12 +18,34 @@ namespace ArrayEsercizio
             InitializeComponent();
         }
         string[] nome = new string[] { "ROSSI MARIO\r\nBIANCHI LUIGI\r\nBELLI GIULIA\r\nDOTTI FABIO\r\nMERLI GIANNA\r\nZERI GIULIO\r\nBOTTI MARIA" };
-        string[] conto = new string[] { "11264\r\n\r\n99780\r\n\r\n00342\r\n\r\n03419\r\n\r\n34562\r\n\r\n09887\r\n\r\n02341" };
-        string[] saldo = new string[] { "11534\r\n\r\n-2345\r\n\r\n3451\r\n\r\n127\r\n\r\n45673\r\n\r\n-13\r\n\r\n3452" };
+        int [] conto = new int[] {11264,99780,00342,03419,34562,09887,02341 };
+       int [] saldo = new int[] { 11534,-2345,3451,127,45673,-13,3452 };
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void button4_Click (object sender, EventArgs e)
         {
+            string val=Convert.ToString(textBox2.Text);
+            for(int i = 0;i<7;i++)
+            {
+                if(val==nome[i])
+                {
+                    label3.Text=Convert.ToString(conto[i]);
+                    label1.Text = Convert.ToString(saldo[i]);
 
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int n = Convert.ToInt32(textBox3.Text);
+            for(int i=0;i<7;i++)
+            {
+                if (n == conto[i])
+                {
+                    label6.Text = nome[i];
+                    label7.Text = Convert.ToString(saldo[i]);
+                }
+            }
         }
     }
     
