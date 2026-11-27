@@ -123,7 +123,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(244, 29);
             this.button1.TabIndex = 18;
-            this.button1.Text = "visualizzare conto con il saldo maggiore";
+            this.button1.Text = "visualizzare il conto con il saldo maggiore";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -143,7 +143,7 @@
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(12, 239);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(255, 33);
+            this.button3.Size = new System.Drawing.Size(205, 33);
             this.button3.TabIndex = 20;
             this.button3.Text = "visualizzare la media dei saldi";
             this.button3.UseVisualStyleBackColor = true;
@@ -218,6 +218,7 @@
             // 
             // button4
             // 
+            this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(671, 32);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(72, 30);
@@ -228,6 +229,7 @@
             // 
             // button5
             // 
+            this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(609, 128);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(80, 40);
@@ -260,7 +262,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(283, 249);
+            this.label10.Location = new System.Drawing.Point(231, 249);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(43, 13);
             this.label10.TabIndex = 32;
