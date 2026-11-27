@@ -239,29 +239,32 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(273, 175);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(33, 13);
             this.label8.TabIndex = 30;
-            this.label8.Text = "label8";
+            this.label8.Text = "nome";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(283, 211);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(33, 13);
             this.label9.TabIndex = 31;
-            this.label9.Text = "label9";
+            this.label9.Text = "nome";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(283, 249);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.Size = new System.Drawing.Size(43, 13);
             this.label10.TabIndex = 32;
-            this.label10.Text = "label10";
+            this.label10.Text = "risultato";
             // 
             // Form1
             // 
